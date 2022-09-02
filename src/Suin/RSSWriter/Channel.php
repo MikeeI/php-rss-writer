@@ -34,6 +34,17 @@ class Channel implements ChannelInterface
 
     /** @var int */
     protected $ttl;
+    
+    //CUSTOM
+    
+    /** @var string */
+    protected webfeeds_accentColor;
+    protected webfeeds_related;
+    protected webfeeds_icon;
+    protected webfeeds_logo;
+    protected webfeeds_cover;
+    
+    //CUSTOM
 
     /** @var string[] */
     protected $pubsubhubbub;
@@ -220,6 +231,28 @@ class Channel implements ChannelInterface
         if ($this->ttl !== null) {
             $xml->addChild('ttl', $this->ttl);
         }
+        
+        
+        
+        //CUSTOM
+        $image = new \SimpleXMLElement('<image />');
+		if ($this->imageUrl !== null) {
+			$image->addChild('url', $this->imageUrl);
+		}
+		if ($this->imageTitle !== null) {
+			$image->addChild('title', $this->imageTitle);
+		}
+		if ($this->imageLink !== null) {
+			$image->addChild('link', $this->imageLink);
+		}
+
+        if ($this->webfeeds_cover !== null) {
+            
+        }
+        
+        
+        
+        //CUSTOM
 
         if ($this->pubsubhubbub !== null) {
             $feedUrl = $xml->addChild('xmlns:atom:link');
