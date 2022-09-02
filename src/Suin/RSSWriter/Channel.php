@@ -157,6 +157,46 @@ class Channel implements ChannelInterface
         return $this;
     }
 
+    //CUSTOM
+
+    public function webfeeds_accentColor($webfeeds_accentColor)
+    {
+        $this->webfeeds_accentColor = $webfeeds_accentColor;
+        return $this;
+    }
+
+    public function webfeeds_related($webfeeds_related)
+    {
+        $this->webfeeds_related = $webfeeds_related;
+        return $this;
+    }
+
+    public function webfeeds_icon($webfeeds_icon)
+    {
+        $this->webfeeds_icon = $webfeeds_icon;
+        return $this;
+    }
+
+    public function webfeeds_logo($webfeeds_logo)
+    {
+        $this->webfeeds_logo = $webfeeds_logo;
+        return $this;
+    }
+
+    public function webfeeds_cover($webfeeds_cover)
+    {
+        $this->webfeeds_cover = $webfeeds_cover;
+        return $this;
+    }
+
+    public function webfeeds_analytics($webfeeds_analytics)
+    {
+        $this->webfeeds_analytics = $webfeeds_analytics;
+        return $this;
+    }
+
+    //CUSTOM
+
     /**
      * Enable PubSubHubbub discovery
      * @param string $feedUrl
@@ -235,6 +275,15 @@ class Channel implements ChannelInterface
         
         
         //CUSTOM
+
+        //<webfeeds:cover image="https://www.programmableweb.com/sites/default/files/pw-logo.png"/>
+        
+        if ($this->webfeeds_cover !== null) {
+            $feedUrl = $xml->addChild('xmlns:webfeeds:cover');
+            $feedUrl->addAttribute('image', $this->webfeeds_cover);
+        }
+
+        /*
         $image = new \SimpleXMLElement('<image />');
 		if ($this->imageUrl !== null) {
 			$image->addChild('url', $this->imageUrl);
@@ -249,7 +298,7 @@ class Channel implements ChannelInterface
         if ($this->webfeeds_cover !== null) {
             
         }
-        
+        */
         
         
         //CUSTOM

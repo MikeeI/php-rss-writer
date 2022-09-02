@@ -70,6 +70,18 @@ interface ChannelInterface
      */
     public function ttl($ttl);
 
+    //CUSTOM
+
+    public function webfeeds_accentColor($webfeeds_accentColor);
+    public function webfeeds_related($webfeeds_related);
+    public function webfeeds_icon($webfeeds_icon);
+    public function webfeeds_logo($webfeeds_logo);
+    public function webfeeds_cover($webfeeds_cover);
+    public function webfeeds_analytics($webfeeds_analytics);
+
+
+    //CUSTOM
+
     /**
      * Add item object
      * @param ItemInterface $item
