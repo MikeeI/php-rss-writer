@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Channel of Odd Jobsman - RSS Feed</title>
+        <link>https://feed.oddjobsman.me/php/php-rss-writer/examples/?version=simple-feed-duplicate10.rss/</link>
+        <description>Odd Jobsman Feedly Feed Fad Fud Feed Description</description>
+        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://feed.oddjobsman.me/php/php-rss-writer/examples/simple-feed-duplicate10.rss" type="application/rss+xml" rel="self" />
+        <language>en-US</language>
+        <copyright>Copyright 2022, Odd Jobsman</copyright>
+        <pubDate>Fri, 09 Sep 2022 16:25:47 +0200</pubDate>
+        <lastBuildDate>Fri, 09 Sep 2022 16:25:47 +0200</lastBuildDate>
+        <ttl>60</ttl>
+        <webfeeds:analytics id="UA-XXXXX-Y" engine="GoogleAnalytics" />
+        <webfeeds:accentColor>#ff0000</webfeeds:accentColor>
+        <webfeeds:cover image="https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_600x100.png" />
+        <webfeeds:icon>https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_128x128.png</webfeeds:icon>
+        <webfeeds:logo>https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_96x96.png</webfeeds:logo>
+        <webfeeds:related layout="card" target="browser" />
+        <atom:link rel="self" href="https://feed.oddjobsman.me/php/php-rss-writer/examples/simple-feed.php" type="application/rss+xml" />
+        <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" />
+        <item>
+            <title>
+                <![CDATA[Blog Entry Of Odd Jobsman Number 1]]>
+            </title>
+            <link>https://feed.oddjobsman.me/php/php-rss-writer/examples/article1?version=simple-feed-duplicate10.rss</link>
+            <description>
+                <![CDATA[<div>Blog body 1</div>]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<div>
+                    Blog body 1
+                    <img src="https://i.imgur.com/F6x8x38.gif" />
+                    23423523523
+                    <blockquote class="imgur-embed-pub" lang="en" data-id="a/7IRjl3o"  ><a href="//imgur.com/a/7IRjl3o">GIF 130</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+                    
+                </div>]]>
+            </content:encoded>
+            <guid isPermaLink="false">https://feed.oddjobsman.me/php/php-rss-writer/examples/article1?version=simple-feed-duplicate10.rss</guid>
+            <pubDate>Fri, 09 Sep 2022 16:25:47 +0200</pubDate>
+            <author>author@oddjobsman.me (Odd Jobsman)</author>
+            <category>
+                <![CDATA[Porsche]]>
+            </category>
+            <category>
+                <![CDATA[Investing]]>
+            </category>
+            <category>
+                <![CDATA[Product Merges]]>
+            </category>
+            <category>
+                <![CDATA[What's New]]>
+            </category>
+            <category>
+                <![CDATA[Celebrity Feature]]>
+            </category>
+            <media:content url="https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_600x600.png" medium="image" width="600" height="600" />
+        </item>
+        <item>
+            <title>
+                <![CDATA[Blog Entry Of Odd Jobsman Number 2]]>
+            </title>
+            <link>https://feed.oddjobsman.me/php/php-rss-writer/examples/article2?version=simple-feed-duplicate10.rss</link>
+            <description>
+
+            </description>
+            <content:encoded>
+                <![CDATA[
+                <div>
+                    <div class="webfeeds-header">
+                        <img class="webfeeds-header__illustration webfeedsFeaturedVisual" src="http://i.imgur.com//m9pnEj6.gif" width="2976" height="1800" data-preview="http://i.imgur.com//m9pnEj6.gif" />
+                        <div class="webfeeds-header__kicker">Market Intelligence</div>
+                        <div class="webfeeds-header__title">
+                            <!-- injected by client -->
+                        </div>
+                        <div class="webfeeds-header__subtitle">Use Feedly&#8217;s Partnerships machine learning model to easily track articles mentioning partnership announcements</div>
+                    </div>
+                    <p>Tracking new partnerships is an essential part of <strong>Market Intelligence</strong>
+                    </p>
+                    <p>That’s why we’ve added&nbsp; <strong>Partnerships</strong>&nbsp;to the list of strategic moves Feedly’s AI engine understands. </p>
+                    <p>Now, with this new machine learning model, your team can:</p>
+                    <ul>
+                        <li>Track new collaborations and innovations in your industry</li>
+                        <li>Spot new business development opportunities</li>
+                        <li>&nbsp;Keep a closer eye on your competition</li>
+                    </ul>
+                    <div class="wp-block-gts-feedly-button webfeeds-actions">
+                        <p>
+                            <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_3" class="button accent button--leo">Start 30-day free trial</a>
+                        </p>
+                    </div>
+                    <p>Curious how it works? Here is a quick tour:</p>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="http://i.imgur.com//m9pnEj6.gif" />
+                        <figcaption>Example: Partnerships related to Biopharma Industry</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_002.png" />
+                        <figcaption>A machine learning model that flags articles mentioning a partnership announcement between multiple companies</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_003.png" />
+                        <figcaption>Popular partnership use cases</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="http://i.imgur.com//m9pnEj6.gif" />
+                        <figcaption>Quickly identify partnership-related sentences</figcaption>
+                    </figure>
+                    <div class="wp-block-gts-feedly-call-for-action-block webfeeds-call-for-action">
+                        <div>
+                            <h2 class="webfeeds-call-for-action__title">Speed up your market intelligence research</h2>
+                            <p class="webfeeds-call-for-action__sub">Partnerships is one of the machine learning models included in Feedly for Market Intelligence. Start a free 30-day trial to see how Feedly can help you speed up your market intelligence.</p>
+                            <p>
+                                <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_3" class="webfeeds-call-for-action__button button accent primary small">Start 30-day free trial</a>
+                            </p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_005.png" class="webfeeds-call-for-action__img" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+    ]]>
+
+            </content:encoded>
+            <guid isPermaLink="false">https://feed.oddjobsman.me/php/php-rss-writer/examples/article2?version=simple-feed-duplicate10.rss</guid>
+            <pubDate>Fri, 09 Sep 2022 16:25:47 +0200</pubDate>
+            <author>author@oddjobsman.me (Odd Jobsman)</author>
+            <media:content url="https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_600x600.png" medium="image" width="600" height="600" />
+            <category>
+                <![CDATA[Leo]]>
+            </category>
+            <category>
+                <![CDATA[Market Intelligence]]>
+            </category>
+            <category>
+                <![CDATA[Product Updates]]>
+            </category>
+            <category>
+                <![CDATA[What's New]]>
+            </category>
+            <category>
+                <![CDATA[Star feature]]>
+            </category>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Blog Entry Of Odd Jobsman Number 3]]>
+            </title>
+            <link>https://feed.oddjobsman.me/php/php-rss-writer/examples/article3?version=simple-feed-duplicate10.rss</link>
+            <description>
+                <![CDATA[<div>Blog body 3</div>]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<div>
+                    33333333333333333
+                    <img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/android.svg" />
+                    <img src="https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_svg_1.svg" />
+                    <script src="https://leaking.via/script-src"></script>
+                    <svg><script href="https://leaking.via/svg-script-href"></script></svg>
+                    <svg><script xlink:href="https://leaking.via/svg-script-xlink-href"></script></svg>
+                    <script>
+                    //# sourceMappingURL=https://leaking.via/javascript-source-map
+                    </script>
+                    
+                    <!--
+                    %Frames
+                    -->
+                    <iframe src="https://orf.at"></iframe>
+                    <iframe src="data:image/svg+xml,<svg%20xmlns='%68ttp:%2f/www.w3.org/2000/svg'%20xmlns:xlink='%68ttp:%2f/www.w3.org/1999/xlink'><image%20xlink:hr%65f='%68ttps:%2f/leaking.via/svg-via-data'></image></svg>"></iframe>
+                    <iframe srcdoc="<img src=https://leaking.via/iframe-srcdoc-img-src>"></iframe>
+                    <frameset>
+                        <frame src="https://leaking.via/frame-src"></frame>
+                    </frameset>
+                    <iframe src="view-source:https://leaking.via/iframe-src-viewsource"></iframe>
+                    <iframe src="javascript:'&lt;img src=https://leaking.via/iframe-javascript-src&gt;'"></iframe>
+                    <iframe src="javascript:'&lt;iframe src=&quot;javascript:\&apos;&lt;img src=https://leaking.via/iframe-javascript-src-2&gt;\&apos;&quot;&gt;&lt;/iframe&gt;'"></iframe>
+                    <iframe src="javascript:atob('PGltZyBzcmM9Imh0dHBzOi8vbGVha2luZy52aWEvaWZyYW1lLWphdmFzY3JpcHQtc3JjLTMiPg==')"></iframe>
+                    
+                </div>]]>
+            </content:encoded>
+            <guid isPermaLink="false">https://feed.oddjobsman.me/php/php-rss-writer/examples/article3?version=simple-feed-duplicate10.rss</guid>
+            <pubDate>Fri, 09 Sep 2022 16:25:47 +0200</pubDate>
+            <author>author@oddjobsman.me (Odd Jobsman)</author>
+        </item>
+
+
+
+
+
+
+
+
+
+    </channel>
+</rss>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:oddman="https://rss.oddjobsman.me/project_feed_evaluation/xmlns">
+    <channel>
+        <title>Odd Jobsman Blog</title>
+        <webfeeds:analytics id="UA-238412553-1" engine="GoogleAnalytics" />
+        <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+        <atom:link href="https://rss.oddjobsman.me/project_feed_evaluation/feed_basic.rss" rel="self" type="application/rss+xml" />
+        <link>https://rss.oddjobsman.me/project_feed_evaluation/</link>
+        <description>Odd Jobsman Description</description>
+        <lastBuildDate>Tue, 16 Aug 2022 15:32:28 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>webfeed/0.11a-feedlybeta</generator>
+        <ttl>60</ttl>
+        <copyright>Copyright 2022 Oddman, Inc. All Rights Reserved.</copyright>
+        <item>
+            <title>a really small update</title>
+            <link>https://rss.oddjobsman.me/project_feed_evaluation/article_3</link>
+            <pubDate>Tue, 23 Aug 2022 05:00:00 +0000</pubDate>
+            <dc:creator>Hans Stepanenko</dc:creator>
+            <description>Empty</description>
+            <guid isPermaLink="false">https://rss.oddjobsman.me/project_feed_evaluation/article?guid=3</guid>
+            <content:encoded>
+                A really long description
+            </content:encoded>
+        </item>
+        <item>
+            <title>Stay on top of new partnerships and collaborations in your industry</title>
+            <link>https://rss.oddjobsman.me/project_feed_evaluation/article_1</link>
+            <pubDate>Tue, 23 Aug 2022 03:00:00 +0000</pubDate>
+            <dc:creator>Hans Stepanenko</dc:creator>
+            <category>
+                <![CDATA[Porsche]]>
+            </category>
+            <category>
+                <![CDATA[Investing]]>
+            </category>
+            <category>
+                <![CDATA[Product Merges]]>
+            </category>
+            <category>
+                <![CDATA[What's New]]>
+            </category>
+            <category>
+                <![CDATA[Celebrity Feature]]>
+            </category>
+            <description>Empty</description>
+            <guid isPermaLink="false">https://rss.oddjobsman.me/project_feed_evaluation/article?guid=1</guid>
+            <content:encoded>
+                <![CDATA[
+                <div>
+                    <div class="webfeeds-header">
+                        <img class="webfeeds-header__illustration webfeedsFeaturedVisual" src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_001.png" width="2976" height="1800" data-preview="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_001.png" />
+                        <div class="webfeeds-header__kicker">Market Intelligence</div>
+                        <div class="webfeeds-header__title">
+                            <!-- injected by client -->
+                        </div>
+                        <div class="webfeeds-header__subtitle">Use Feedly&#8217;s Partnerships machine learning model to easily track articles mentioning partnership announcements</div>
+                    </div>
+                    <p>Tracking new partnerships is an essential part of <strong>Market Intelligence</strong>
+                    </p>
+                    <p>That’s why we’ve added&nbsp; <strong>Partnerships</strong>&nbsp;to the list of strategic moves Feedly’s AI engine understands. </p>
+                    <p>Now, with this new machine learning model, your team can:</p>
+                    <ul>
+                        <li>Track new collaborations and innovations in your industry</li>
+                        <li>Spot new business development opportunities</li>
+                        <li>&nbsp;Keep a closer eye on your competition</li>
+                    </ul>
+                    <div class="wp-block-gts-feedly-button webfeeds-actions">
+                        <p>
+                            <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_3" class="button accent button--leo">Start 30-day free trial</a>
+                        </p>
+                    </div>
+                    <p>Curious how it works? Here is a quick tour:</p>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_001.png" />
+                        <figcaption>Example: Partnerships related to Biopharma Industry</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_002.png" />
+                        <figcaption>A machine learning model that flags articles mentioning a partnership announcement between multiple companies</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_003.png" />
+                        <figcaption>Popular partnership use cases</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_004.png" />
+                        <figcaption>Quickly identify partnership-related sentences</figcaption>
+                    </figure>
+                    <div class="wp-block-gts-feedly-call-for-action-block webfeeds-call-for-action">
+                        <div>
+                            <h2 class="webfeeds-call-for-action__title">Speed up your market intelligence research</h2>
+                            <p class="webfeeds-call-for-action__sub">Partnerships is one of the machine learning models included in Feedly for Market Intelligence. Start a free 30-day trial to see how Feedly can help you speed up your market intelligence.</p>
+                            <p>
+                                <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_3" class="webfeeds-call-for-action__button button accent primary small">Start 30-day free trial</a>
+                            </p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_005.png" class="webfeeds-call-for-action__img" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+    ]]>
+
+            </content:encoded>
+        </item>
+        <item>
+
+
+            <title>Keep track of innovations in digital banking</title>
+            <link>https://rss.oddjobsman.me/project_feed_evaluation/article_2</link>
+            <pubDate>Mon, 01 Aug 2022 03:00:00 +0000</pubDate>
+            <dc:creator>Gaby Zedan</dc:creator>
+            <category>
+                <![CDATA[Leo]]>
+            </category>
+            <category>
+                <![CDATA[Market Intelligence]]>
+            </category>
+            <category>
+                <![CDATA[Product Updates]]>
+            </category>
+            <category>
+                <![CDATA[What's New]]>
+            </category>
+            <category>
+                <![CDATA[Star feature]]>
+            </category>
+            <description>Empty</description>
+            <guid isPermaLink="false">https://rss.oddjobsman.me/project_feed_evaluation/article?guid=2</guid>
+            <content:encoded>
+                <![CDATA[
+                <div>
+                    <div class="webfeeds-header">
+                        <img class="webfeeds-header__illustration webfeedsFeaturedVisual" src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_006.png" width="2976" height="1788" data-preview="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_006.png" />
+                        <div class="webfeeds-header__kicker">Market Intelligence</div>
+                        <div class="webfeeds-header__title">
+                            <!-- injected by client -->
+                        </div>
+                        <div class="webfeeds-header__subtitle">With Feedly’s new Neobanks AI model, you can effortlessly keep up with the growth and strategies of the world’s top 350 neobanks</div>
+                    </div>
+                    <p>The new Feedly <strong>Neobanks</strong>
+                        <strong>Leo Concept </strong>is a handy list of the top 350 digital banks.
+                    </p>
+                    <p>This new <strong>Machine Learning</strong> model will help you: </p>
+                    <ul>
+                        <li>Track new trends and innovations across <strong>fintech</strong>
+                        </li>
+                        <li>Spot new investment opportunities</li>
+                        <li>Discover potential partners to work with</li>
+                    </ul>
+                    <div class="wp-block-gts-feedly-button webfeeds-actions">
+                        <p>
+                            <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_4" class="button accent button--leo">Start 30-day free trial</a>
+                        </p>
+                    </div>
+                    <p>Curious how it works? Here is a quick tour:</p>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_007.png" />
+                        <figcaption>Example: Neobanks related to Product Launches</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_008.png" />
+                        <figcaption>A machine learning model that tracks 350 global neobanks</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_009.png" />
+                        <figcaption>Popular neobank use cases</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_010.png" />
+                        <figcaption>Tracks over 350 neobank companies across the globe</figcaption>
+                    </figure>
+                    <figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal">
+                        <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_011.png" />
+                        <figcaption>Quickly identify key strategic move sentences</figcaption>
+                    </figure>
+                    <div class="wp-block-gts-feedly-call-for-action-block webfeeds-call-for-action">
+                        <div>
+                            <h2 class="webfeeds-call-for-action__title">Speed up your market intelligence research</h2>
+                            <p class="webfeeds-call-for-action__sub">Neobanks is one of the machine learning models included in Feedly for Market Intelligence. Start a free 30-day trial to see how Feedly can help you speed up your market intelligence.</p>
+                            <p>
+                                <a href="https://rss.oddjobsman.me/project_feed_evaluation/article_4" class="webfeeds-call-for-action__button button accent primary small">START 30-DAY FREE TRIAL</a>
+                            </p>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="https://rss.oddjobsman.me/project_feed_evaluation/assets/image_011.png" class="webfeeds-call-for-action__img" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+    ]]>
+
+            </content:encoded>
+
+        </item>
+    </channel>
+</rss>
