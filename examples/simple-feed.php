@@ -11,35 +11,59 @@ spl_autoload_register(function ($c) {
 set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__DIR__) . '/src');
 
 $feed = new Feed();
+header('Content-type: application/rss+xml');
+
+$date_now = new DateTime('now', new DateTimeZone('UTC'));
+//$date_now_rfc822 = $date_now->format(DateTime::RFC822);
+$date_now_int = $date_now->getTimestamp();
 
 $channel = new Channel();
 $channel
-    ->title('Channel Title')
-    ->description('Channel Description')
-    ->url('http://blog.example.com')
-    ->feedUrl('http://blog.example.com/rss')
+    ->title('Channel of Odd Jobsman - RSS Feed')
+    ->description('Odd Jobsman Feedly Feed Fad Fud Feed Description')
+    ->url('https://feed.oddjobsman.me/php/php-rss-writer/examples/')
+    ->feedUrl('https://feed.oddjobsman.me/php/php-rss-writer/examples/simple-feed.php')
     ->language('en-US')
-    ->copyright('Copyright 2012, Foo Bar')
-    ->pubDate(strtotime('Tue, 21 Aug 2012 19:50:37 +0900'))
-    ->lastBuildDate(strtotime('Tue, 21 Aug 2012 19:50:37 +0900'))
+    ->copyright('Copyright 2022, Odd Jobsman')
+    ->pubDate($date_now_int)
+    ->lastBuildDate($date_now_int)
     ->ttl(60)
-    ->pubsubhubbub('http://example.com/feed.xml', 'http://pubsubhubbub.appspot.com') // This is optional. Specify PubSubHubbub discovery if you want.
+    ->webfeeds_cover('https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_600x100.png')
+    ->webfeeds_icon('https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_128x128.png')
+    ->webfeeds_logo('https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_96x96.png')
+    ->webfeeds_accentColor('#ff0000')
+    ->webfeeds_related('card')
+    ->webfeeds_analytics('UA-XXXXX-Y')
+    ->pubsubhubbub('https://feed.oddjobsman.me/php/php-rss-writer/examples/simple-feed.php', 'http://pubsubhubbub.appspot.com')
     ->appendTo($feed);
 
 // Blog item
 $item = new Item();
 $item
-    ->title('Blog Entry Title')
-    ->description('<div>Blog body</div>')
-    ->contentEncoded('<div>Blog body</div>')
-    ->url('http://blog.example.com/2012/08/21/blog-entry/')
-    ->author('john@smith.com')
-    ->creator('John Smith')
-    ->pubDate(strtotime('Tue, 21 Aug 2012 19:50:37 +0900'))
-    ->guid('http://blog.example.com/2012/08/21/blog-entry/', true)
-    ->preferCdata(true) // By this, title and description become CDATA wrapped HTML.
-    ->appendTo($channel);
+->title('Blog Entry Of Odd Jobsman Number 1')
+->description('<div>Blog body 1</div>')
+->contentEncoded('<div>Blog body 1</div>')
+->url('https://feed.oddjobsman.me/php/php-rss-writer/examples/article1')
+->author('author@oddjobsman.me (Odd Jobsman)')
+->pubDate($date_now_int)
+->guid('https://feed.oddjobsman.me/php/php-rss-writer/examples/article1', true)
+->preferCdata(true) // By this, title and description become CDATA wrapped HTML.
+->appendTo($channel);
 
+$item = new Item();
+$item
+->title('Blog Entry Of Odd Jobsman Number 2')
+->description('<div>Blog body 2</div>')
+->contentEncoded('<div>Blog body 2 </div>')
+->url('https://feed.oddjobsman.me/php/php-rss-writer/examples/article2')
+->author('author@oddjobsman.me (Odd Jobsman)')
+->pubDate($date_now_int)
+->guid('https://feed.oddjobsman.me/php/php-rss-writer/examples/article2', true)
+->preferCdata(true) // By this, title and description become CDATA wrapped HTML.
+->appendTo($channel);
+
+
+/*
 // Podcast item
 $item = new Item();
 $item
@@ -48,5 +72,5 @@ $item
     ->url('http://podcast.example.com/2012/08/21/podcast-entry/')
     ->enclosure('http://podcast.example.com/2012/08/21/podcast.mp3', 4889, 'audio/mpeg')
     ->appendTo($channel);
-
+*/
 echo $feed; // or echo $feed->render();

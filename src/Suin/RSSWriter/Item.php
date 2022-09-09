@@ -196,6 +196,24 @@ class Item implements ItemInterface
             $xml->addChild('dc:creator', $this->creator,"http://purl.org/dc/elements/1.1/");
         }
 
+        //CUSTOM
+
+        if(!empty($this->media->url))
+        {
+            $media = $xml->addChild('media:content');
+            //<media:content url='https://example.com/image.jpeg' medium='image' width='720' height='405'/>
+            $media->addAttribute('url', $this->media['url']);
+        }
+
+        $feedUrl = $xml->addChild('xmlns:media:content');
+        $feedUrl->addAttribute('url', 'https://feed.oddjobsman.me/php/php-rss-writer/examples/assets/img_600x600.png');
+        $feedUrl->addAttribute('medium', 'image');
+        $feedUrl->addAttribute('width', '600');
+        $feedUrl->addAttribute('height', '600');
+        //$xml->addChild('webfeeds', '',"http://webfeeds.org/rss/1.0");
+
+        //CUSTOM
+
         return $xml;
     }
 }

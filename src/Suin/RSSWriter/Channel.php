@@ -38,11 +38,12 @@ class Channel implements ChannelInterface
     //CUSTOM
     
     /** @var string */
-    protected webfeeds_accentColor;
-    protected webfeeds_related;
-    protected webfeeds_icon;
-    protected webfeeds_logo;
-    protected webfeeds_cover;
+    protected $webfeeds_accentColor;
+    protected $webfeeds_related;
+    protected $webfeeds_icon;
+    protected $webfeeds_logo;
+    protected $webfeeds_cover;
+    protected $webfeeds_analytics;
     
     //CUSTOM
 
@@ -276,12 +277,55 @@ class Channel implements ChannelInterface
         
         //CUSTOM
 
-        //<webfeeds:cover image="https://www.programmableweb.com/sites/default/files/pw-logo.png"/>
+        //<webfeeds:analytics id="UA-238360219-1" engine="GoogleAnalytics"/>
+        if ($this->webfeeds_analytics !== null) {
+            $feedUrl = $xml->addChild('xmlns:webfeeds:analytics');
+            $feedUrl->addAttribute('id', $this->webfeeds_analytics);
+            $feedUrl->addAttribute('engine', 'GoogleAnalytics');
+        }
         
+        //<webfeeds:accentColor>249F80</webfeeds:accentColor>
+        if ($this->webfeeds_accentColor !== null) {
+            $xml->addChild('xmlns:webfeeds:accentColor', $this->webfeeds_accentColor);
+        }
+
+        //<webfeeds:cover image="https://www.programmableweb.com/sites/default/files/pw-logo.png"/>
         if ($this->webfeeds_cover !== null) {
             $feedUrl = $xml->addChild('xmlns:webfeeds:cover');
             $feedUrl->addAttribute('image', $this->webfeeds_cover);
         }
+
+        //<webfeeds:icon>https://www.programmableweb.com/sites/all/themes/pw_bootstrap_two/images/logo_onscroll.png</webfeeds:icon>
+        if($this->webfeeds_icon !== null) {
+            $xml->addChild('xmlns:webfeeds:icon', $this->webfeeds_icon);
+        }
+
+        //<webfeeds:logo>https://www.programmableweb.com/sites/default/files/pw-logo.png</webfeeds:logo>
+        if($this->webfeeds_logo !== null) {
+            $xml->addChild('xmlns:webfeeds:logo', $this->webfeeds_logo);
+        }
+
+        //<webfeeds:related layout="card" target="browser"/>
+        if($this->webfeeds_related !== null) {
+            $feedUrl = $xml->addChild('xmlns:webfeeds:related');
+            $feedUrl->addAttribute('layout', $this->webfeeds_related);
+            $feedUrl->addAttribute('target', 'browser');
+        }
+
+
+        /*
+        protected $webfeeds_accentColor;
+        protected $webfeeds_analytics;
+        protected $webfeeds_cover;
+        protected $webfeeds_icon;      
+        protected $webfeeds_logo;
+        protected $webfeeds_related;
+        
+        */
+
+
+
+
 
         /*
         $image = new \SimpleXMLElement('<image />');
